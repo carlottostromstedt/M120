@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "c5232ec005ac093f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7164fe748846b1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5729a3595e0a39e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ergonomy_and_standards.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "30111198d8ffb0cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "1df9b0672bbf4689",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0d16dc61ca217d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "de89451432b5baff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "53e33db784daf7d6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "74214db64bd07283",
+    "type": "split",
+    "children": [
+      {
+        "id": "94a013e2b1828ca0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30a4def352a8a025",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ergonomy_and_standards.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7fd5db179974c7ba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ergonomy_and_standards.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3746fe5ec1e0820e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7599417909876fa4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ergonomy_and_standards.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e0d16dc61ca217d6",
+  "lastOpenFiles": [
+    "assets/spotify_help.png",
+    "Untitled.canvas",
+    "2023-05-25.md",
+    "ergonomy_and_standards.md",
+    "assets/windows_style.png",
+    "assets/principles_hero_1880.png",
+    "assets/osx_dropdown.png",
+    "assets/components-combobox-intro.md"
+  ]
+}

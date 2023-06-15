@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rain Effect</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    #canvas-container {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+  <script>
+    SC.initialize({
+      client_id: 'YOUR_CLIENT_ID',
+      redirect_uri: 'https://example.com/callback'
+    });
+  </script>
+
+<div style="display: flex;">
+  <div style="width: 500px; height: 500px;">
+    <div id="soundcloud" style="width: 100%; height: 100%;"></div>
+    <script type="text/javascript">
+      SC.oEmbed('https://soundcloud.com/user-941974453/sets/slow-techno?si=4e6f60e451954625b61ae09c904dc498&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing', {
+        element: document.getElementById('soundcloud')
+      });
+    </script>
+  </div>
+  <div id="canvas-container" style="width: 1000px; height: 500px;"></div>
+</div>
+
+  <!-- Include the Three.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+
+  <!-- Your custom Three.js script -->
+  <script type="module" src="rain.js"></script>
+</body>
+</html>
+
